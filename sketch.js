@@ -24,6 +24,7 @@ function setup(){
 function draw(){
     background(0);
     Engine.update(engine);
+    console.log("something")
     textSize(50);
     textFont("Comic Sans MS");
     fill ('red')
